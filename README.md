@@ -47,7 +47,7 @@ All assets are stored in a single smart contract, and the deployment tracks titl
 
 A deployment facilitates transactions between clients--nothing more and nothing less.  An in-flight transaction is validated and signed every step of the way (by the sender, recipient, and deployment), so a deployment can **never** meddle with the contents of a transaction.  Because of this extensive validation, any disputes that arise are between a client and the deployment, not between a client and his counterparty.  This greatly simplifies dispute resolution.
 
-Clients **always** have the ability to bypass the deployment and withdraw their funds directly from the smart contract by submitting the usual proofs.  If a proof is old or otherwise invalid, it will be challenged by a the deployment as part of a formal and provably fair dispute resolution process.
+Clients **always** have the ability to bypass the deployment and withdraw their funds directly from the smart contract by submitting the usual proofs.  If a proof is old or otherwise invalid, it will be challenged by the deployment as part of a formal and provably fair dispute resolution process.
 
 Internally, a deployment supports horizontal scaling, making it possible for Kchannels to achieve very high throughput.
 
