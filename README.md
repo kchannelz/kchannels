@@ -3,7 +3,7 @@ Pronounced *kay-channels*.  Formerly known as Infura Payment Channels.
 
 Kchannels is a non-custodial payment channel product for [Ethereum](https://ethereum.org/) that utilizes proven solutions from the legacy financial industry and combines them with Layer 2 tech based on our learnings and experience from [Infura](https://infura.io/), a popular Ethereum infrastructure provider.
 
-From the beginning, Kchannels was designed for good user and developer experience.  It delivers the three canonical benefits of payment channels (real-time speed, low transaction costs, and privacy) along with a host of other benefits.
+From the ground up, Kchannels was designed for good user and developer experience.  It delivers the three canonical benefits of payment channels (real-time speed, low transaction costs, and privacy) along with a host of other benefits.
 
 At the core of Kchannels are *multi-channels*, a new type of payment channel construction that helps to deliver a remarkably frictionless payment channel experience.
 
