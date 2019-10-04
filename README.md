@@ -1,7 +1,7 @@
 # Kchannels
 Pronounced kay-channels.  Formerly known as Infura Payment Channels.
 
-Kchannels is a non-custodial payment channel product based for [Ethereum](https://ethereum.org/) that utilizes proven solutions from the legacy financial industry and combines them with Layer 2 tech based on our learnings and experience from [Infura](https://infura.io/), a popular Ethereum infrastructure provider.
+Kchannels is a non-custodial payment channel product for [Ethereum](https://ethereum.org/) that utilizes proven solutions from the legacy financial industry and combines them with Layer 2 tech based on our learnings and experience from [Infura](https://infura.io/), a popular Ethereum infrastructure provider.
 
 From the beginning, Kchannels was designed for good user and developer experience.  It delivers the three canonical benefits of payment channels (real-time speed, low transaction costs, and privacy) along with a host of other benefits.
 
@@ -41,11 +41,11 @@ Kchannels has undergone an extended design process, with input and feedback from
 
 
 ## Architecture
-Kchannels is built around the notion of a *deployment*, which is analogous to a hub in other solutions.  A deployment consists of two main components:  a set of smart contracts on the Ethereum blockchain and a set of services running in a hosted environment.  This allows for transparent maintenance and upgrades on the backend as well as reducing the infrastructure burden on end users while maintaining our trustlessness guarantees.  The use of only a small set of smart contracts helps reduce contract tracking and gas costs (i.e. there are no per-channel contracts).
+Kchannels is built around the notion of a *deployment*, which is analogous to a hub in other solutions.  A deployment consists of two main components:  a set of smart contracts on the Ethereum blockchain and a set of services running in a hosted environment.  This allows for transparent maintenance and upgrades on the backend as well as for reducing the infrastructure burden on end users while maintaining our trustlessness guarantees.  The use of only a small set of smart contracts helps reduce contract tracking and gas costs (i.e. there are no per-channel contracts).
 
 All assets are stored in a single smart contract, and the deployment tracks title (ownership) of those assets off-chain.
 
-A deployment facilitates transactions between clients--nothing more and nothing less.  An in-flight transaction is validated and signed every step of the way (by the sender, recipient, and deployment), so a deployment can NEVER meddle with the contents of a transaction.  Because of this, any disputes that arise are between a client and the deployment, not between a client and his counterparty.  This greatly simplifies dispute resolution.
+A deployment facilitates transactions between clients--nothing more and nothing less.  An in-flight transaction is validated and signed every step of the way (by the sender, recipient, and deployment), so a deployment can **never** meddle with the contents of a transaction.  Because of this extensive validation, any disputes that arise are between a client and the deployment, not between a client and his counterparty.  This greatly simplifies dispute resolution.
 
 Clients **always** have the ability to bypass the deployment and withdraw their funds directly from the smart contract by submitting the usual proofs.  If a proof is old or otherwise invalid, it will be challenged by a the deployment as part of a formal and provably fair dispute resolution process.
 
@@ -59,7 +59,6 @@ Internally, a deployment supports horizontal scaling, making it possible for Kch
 
 
 ## Links
------
 Most of these are not set up yet, but will be soon.
 * [Twitter](https://twitter.com/kchannelsio)
 * [Website](http://kchannels.io/)
