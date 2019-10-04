@@ -65,7 +65,7 @@ Most of these are not set up yet, but will be soon.
 * [Blog](https://medium.com/kchannels)
 
 
-## What's up the the "kchannelz" part in the GitHub URL?
+## What's up with the "kchannelz" part in the GitHub URL?
 Well, https://github.com/kchannels was taken :(
 
 
