@@ -41,7 +41,7 @@ Kchannels has undergone an extended design process, with input and feedback from
 
 
 ## Architecture
-Kchannels is built around the notion of a *deployment*, which is analogous to a hub in other solutions.  A deployment consists of two main components:  a set of smart contracts on the Ethereum blockchain and a set of services running in a hosted environment.  This allows for transparent maintenance and upgrades on the backend as well as for reducing the infrastructure burden on end users while maintaining our trustlessness guarantees.  The use of only a small set of smart contracts helps reduce contract tracking and gas costs (i.e. there are no per-channel contracts).
+Kchannels is built around the notion of a *deployment*, which is analogous to a hub in other solutions.  A deployment consists of two main components:  a set of smart contracts on the Ethereum blockchain and a set of services (which expose an API) running in a hosted environment.  This allows for transparent maintenance and upgrades on the backend as well as for reducing the infrastructure burden on end users while maintaining our trustlessness guarantees.  The use of only a small set of smart contracts helps reduce contract tracking and gas costs (i.e. there are no per-channel contracts).
 
 All assets are stored in a single smart contract, and the deployment tracks title (ownership) of those assets off-chain.
 
