@@ -58,13 +58,6 @@ Internally, a deployment supports horizontal scaling, making it possible for Kch
 * There are a lot of other cool features on our roadmap, so stay tuned.
 
 
-## Links
-Most of these are not set up yet, but will be soon.
-* [Twitter](https://twitter.com/kchannelsio)
-* [Website](http://kchannels.io/)
-* [Blog](https://medium.com/kchannels)
-
-
 ## What's up with the "kchannelz" part in the GitHub URL?
 Well, https://github.com/kchannels was taken :(
 
