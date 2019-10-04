@@ -1,5 +1,5 @@
 # Kchannels
-Pronounced kay-channels.  Formerly known as Infura Payment Channels.
+Pronounced *kay-channels*.  Formerly known as Infura Payment Channels.
 
 Kchannels is a non-custodial payment channel product for [Ethereum](https://ethereum.org/) that utilizes proven solutions from the legacy financial industry and combines them with Layer 2 tech based on our learnings and experience from [Infura](https://infura.io/), a popular Ethereum infrastructure provider.
 
