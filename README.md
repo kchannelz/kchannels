@@ -5,7 +5,7 @@ Kchannels is a non-custodial payment channel product for [Ethereum](https://ethe
 
 From the ground up, Kchannels was designed for good user and developer experience.  It delivers the three canonical benefits of payment channels (real-time speed, low transaction costs, and privacy) along with a host of other benefits.
 
-At the core of Kchannels are *multi-channels*, a new type of payment channel construction that helps to deliver a remarkably frictionless payment channel experience.
+At the heart of Kchannels are *multi-channels*, a new type of payment channel construction that helps to deliver a remarkably frictionless payment channel experience.
 
 
 ## Status
